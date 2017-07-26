@@ -1,7 +1,7 @@
 <?php
 
 // Задаем список символов, используемых в капче
-$capletters = 'ABCDEFGKIJKLMNOPQRSTUVWXYZ123456789';
+$capletters = 'ABCDEFGKIJKLMNPQRSTUVWXYZ012356789';
 // Длина капчи 7 знаков
 $captlen = 7;
 
@@ -31,13 +31,13 @@ $capbg = imagecolorallocatealpha($capim, 0, 0, 0, 127);
 imagefill($capim, 0, 0, $capbg);
 
 // Задаем начальное значение капчи
-$capcha = '';
+$captcha = '';
 
 // Запускаем цикл заполнение изображения
 for ($i = 0; $i < $captlen; $i++){
 
 // Из нашего списка берем «рендомный» символ и добавляем в капчу
-    $capcha .= $capletters[rand(0, strlen($capletters)-1) ];
+    $captcha .= $capletters[rand(0, strlen($capletters)-1) ];
 
 // Вычисление положения символа по X оси
     $x = ($capwidth - 20) / $captlen * $i + 10;
@@ -55,7 +55,7 @@ for ($i = 0; $i < $captlen; $i++){
     $capangle = rand(-25, 25);
 
 // Рисуем созданный символ, применяя все описанные параметры
-    imagettftext($capim, $capfontsize, $capangle, $x, $y, $capcolor, $capfont, $capcha[$i]);
+    imagettftext($capim, $capfontsize, $capangle, $x, $y, $capcolor, $capfont, $captcha[$i]);
 
 } // Закрываем цикл
 
@@ -63,7 +63,7 @@ for ($i = 0; $i < $captlen; $i++){
 // с ней будет сравниваться введенный пользователем текст
 session_start('lk');
 
-$_SESSION['capcha'] = $capcha;
+$_SESSION['captcha'] = $captcha;
 
 imagepng($capim); // Выводим картинку.
 
