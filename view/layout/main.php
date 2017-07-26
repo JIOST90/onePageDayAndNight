@@ -93,7 +93,7 @@
             <div class="wrapper2" style="background-color: rgba(0, 0, 0, 0.42);">
                 <div class="container noanimate" style="height: 30px;"></div>
 
-                <?php $this->render('layout/body', ['status' => $status]); ?>
+                <?php $this->render('layout/body'); ?>
 
                 <span class="plplink"></span>
                 <div class="container noanimate" style="height: 30px;"></div>
