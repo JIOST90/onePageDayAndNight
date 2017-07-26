@@ -13,7 +13,7 @@
             <div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;">
                 <div class="wrapper2" style="padding: 0px 5px 10px;">
                     <h1 class="spans xs-force-center textable gray-theme">
-                        <span class="p">Статьи по самым низким ценам: 1000 знаков - 150 рублей.</span>
+                        <span class="p">Статьи на любой вкус по приемлимым ценам</span>
                     </h1>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                                             <div class="wrapper2" style="padding: 5px;">
                                                 <div class="macros-form">
                                                     <div class="outer" style="max-width: 546px;">
-                                                        <?php $this->render('forms/feedback_form', ['status' => $status]); ?>
+                                                        <?php $this->render('forms/feedback_form'); ?>
                                                     </div>
                                                 </div>
                                             </div>
