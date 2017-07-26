@@ -69,7 +69,7 @@ class App extends BaseController
             }
         }
 
-        $this->render('layout/main', [
+        $this->render('layout/main_new', [
             'status' => !empty ($status) ? $status : SendModel::STATUS_NONE
         ]);
 
