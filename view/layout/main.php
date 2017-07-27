@@ -88,6 +88,17 @@
         });
     </script>
 
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-103273996-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
     <div class="node node0 section section-clear"><style>.node0 a { color: rgb(25, 37, 230); }</style>
         <div class="wrapper1" style="background-position: center center; background-repeat: no-repeat; background-size: cover; color: rgb(255, 255, 255); background-image: url(&quot;//u8.platformalp.ru/s/842hjek061/c47656f52e10d1f9ff93623c6d8ff801/354f603c06e0767dce06acf04b765952.jpg&quot;);">
             <div class="wrapper2" style="background-color: rgba(0, 0, 0, 0.42);">
