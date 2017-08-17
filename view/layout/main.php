@@ -33,7 +33,7 @@
 
 </head>
 
-<body class="area ">
+<body class="area">
 <div class="area font-text-opensanslight font-header-opensans screen-lg">
 
     <script>
@@ -88,7 +88,8 @@
         });
     </script>
 
-    <div class="node node0 section section-clear"><style>.node0 a { color: rgb(25, 37, 230); }</style>
+    <div class="node node0 section section-clear">
+        <style>.node0 a { color: rgb(25, 37, 230); }</style>
         <div class="wrapper1" style="background-position: center center; background-repeat: no-repeat; background-size: cover; color: rgb(255, 255, 255); background-image: url(&quot;//u8.platformalp.ru/s/842hjek061/c47656f52e10d1f9ff93623c6d8ff801/354f603c06e0767dce06acf04b765952.jpg&quot;);">
             <div class="wrapper2" style="background-color: rgba(0, 0, 0, 0.42);">
                 <div class="container noanimate" style="height: 30px;"></div>
